@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<widget id="WebCamera.widget.WebCamera" needsEntityContext="true" 
+    xmlns="http://www.mendix.com/widget/1.0/">
+    <name>WebCamera</name>
+    <description>The description of this widget.</description>
+    <icon />
+    <properties>
+        <property key="onImageSaved" type="microflow" required="false">
+            <caption>onImageSaved</caption>
+            <category>Behaviour</category>
+            <description>The microflow which will be triggered after saving the image.</description>
+            <returnType type="Void" />
+        </property>
+        <property key="onSaveClose" type="boolean" defaultValue="true">
+            <caption>OnSaveClose</caption>
+            <category>Behaviour</category>
+            <description>If onImageSaved MF includes a 'Close Page' activity then it's recommended to set this property to 'Yes/True' in order to stop the camera.</description>
+        </property>
+        <property key="formatEnum" type="enumeration" defaultValue="png">
+            <caption>Image Format</caption>
+            <category>Camera Configuration</category>
+            <description>Output image format</description>
+            <enumerationValues>
+                <enumerationValue key="png">png</enumerationValue>
+                <enumerationValue key="jpeg">jpg</enumerationValue>
+                <enumerationValue key="webp">webp</enumerationValue>
+            </enumerationValues>
+        </property>
+        <property key="qualityEnum" type="enumeration" defaultValue="n10">
+            <caption>Image Quality</caption>
+            <category>Camera Configuration</category>
+            <description>Output image quality. Please not that this option will be taken into consideration only when the selected image format is 'jpg' or 'webp'.</description>
+            <enumerationValues>
+                <enumerationValue key="n1">x0.1</enumerationValue>
+                <enumerationValue key="n2">x0.2</enumerationValue>
+                <enumerationValue key="n3">x0.3</enumerationValue>
+                <enumerationValue key="n4">x0.4</enumerationValue>
+                <enumerationValue key="n5">x0.5</enumerationValue>
+                <enumerationValue key="n6">x0.6</enumerationValue>
+                <enumerationValue key="n7">x0.7</enumerationValue>
+                <enumerationValue key="n8">x0.8</enumerationValue>
+                <enumerationValue key="n9">x0.9</enumerationValue>
+                <enumerationValue key="n10">x1.0</enumerationValue>
+            </enumerationValues>
+        </property>
+    </properties>
+</widget>
+
+        
