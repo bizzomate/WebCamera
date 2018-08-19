@@ -1,5 +1,9 @@
 # WebCamera
-Mendix Camera Widget which depends on Media Capture API
+**Mendix Camera Widget which depends on Media Capture API**
+
+<p align="center">
+ <img src="/mx-camera.png" />       
+</p>
 
 ## Releases:
 The latest release [WebCamera.mpk (v1.0-beta)](https://github.com/bizzomate/WebCamera/releases)
