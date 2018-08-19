@@ -2,7 +2,7 @@
 **Mendix Camera Widget which depends on Media Capture API**
 
 <p align="center">
- <img src"./mx-camera.png" />       
+ <img src="/mx-camera.png" />       
 </p>
 
 ## Releases:
