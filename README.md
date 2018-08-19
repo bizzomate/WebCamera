@@ -1,5 +1,5 @@
 # WebCamera
-**Mendix Camera Widget which built on Media Capture API**
+**Mendix Camera Widget which built on [Media Capture API](https://developer.mozilla.org/en-US/docs/Web/API/Media_Streams_API)**
 
 <p align="center">
  <img src="/mx-camera.png" />       
